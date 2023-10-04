@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.4),rgba(0, 0, 0, 0.4)),url(media/henry-han-C0wsgSPe1C0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 30%;
+    height: 80%;
+    position: relative;
+    margin:0 auto;
+    padding: 5px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.7),rgba(0, 0, 0, 0.7)),url(media/henry-han-C0wsgSPe1C0-unsplash.jpg);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.button-box{
+    margin: 5% auto;
+    width: 80%;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 9px rgba(0, 0 , 0, 1);
+    position: relative;
+}
+.toggle-btn{
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    padding: 1.3em 0 1.3em 0;
+    position: relative;
+    width: 49%;
+    font-weight: bold;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    transition: 0.5s;
+    border-radius: 30px;
+    background: linear-gradient(to right, #2E94E3, #2E94E3);
+    width: 49%;
+}
+.social-icons{
+    display: grid;
+    position: relative;
+    top: 70%;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+
+}
+.input-group{
+    top: 35%;
+    position: absolute;
+    width: 90%;
+    transition: 0.5s;
+}
+.ic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+.ic:hover{
+    transform: scale(1.2);
+}
+.input-field{
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #2E94E3;
+    margin: 5px 0;
+    outline: none;
+    padding: 10px 0;
+}
+.submit-btn{
+    display: block;
+    outline: none;
+    margin: auto;
+    background: #2E94E3;
+    cursor: pointer;
+    width: 30%;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: bold;
+}
+.submit-btn:hover{
+    transform: scale(1.2);
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+.checkbox{
+    margin: 30px 10px 30px 0;
+}
+span{
+    position: absolute;
+    font-size: 12px;
+    top: 60%;
+}
+#login{
+    left: 30px;
+}
+#register{
+    left: 500px;
+}
+.follow{
+    position: relative;
+    top: 68%;
+    text-align: center;
+}
+h4:hover{
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4;
+}
+.toggle-btn:hover{
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4;
+}
+.checkbox:hover{
+    box-shadow: 0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4;
+}
+span:hover{
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4,
+    0 0 10px #03bcf4;
+}
+.container a{
+    text-decoration: none;
+    
+}
+h3{
+    padding: 1%;
+    border: 2px solid #fff;
+    transition: 0.5s;
+    margin-top: 1.2%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 80%;
+    text-align: center;
+}
+h3:hover{
+    background-color:#2E94E3;
+}

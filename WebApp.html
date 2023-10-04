@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="WebAppStyle.css">
+    <title>My Web App</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="name"><img src="media/html-5.png"><img src="media/css-3.png"><img src="media/js.png"><span>Web App Project</span></div>
+        <div class="nav"><ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="login.html">Login / Sign Up</a>
+        </ul></div>
+    </div>
+
+    <div class="main">
+        <div class="clock">
+            <div class="date">
+                <span id="dayname">Day</span>,
+                <span id="month">Month</span>
+                <span id="daynum">00</span>,
+                <span id="year">Year</span>
+            </div>
+            <div class="time">
+                <span id="hour">00</span>:
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>
+                <span id="period"> AM</span>
+            </div>
+        </div>
+        <div class="search">
+             <input type="text" id="srch-box" placeholder="Enter text to search on google">
+             <button id="srch-btn"><img src="media/search1.png"></button>
+            </div>
+        <div class="apps">
+            <ol>
+                <li><div><a href="weather.html" target="_blank"><img src="media/icons8-weather-64.png" alt="Weather app icon" ></div><div><span>Weather App</span></div></a></li>
+                <li><div><a href="note.html" target="_blank"><img src="media/icons8-notes-64.png" alt="Notes app icon "></div><div><span>Notes App</span></div></a></li>
+                <li><div><a href="ToDoList.html" target="_blank"><img src="media/icons8-todoist-64.png" alt="To Do List"></div><div><span>To Do List</span></a></div></li>
+                <li><div><a href="Cal.html" target="_blank"><img src="media/icons8-calculator-64.png" alt="Calculator App icon"></div><div><span>Simple Calculator</span></div></a></li>
+                <li><div><a href="Quiz.html" target="_blank"><img src="media/icons8-quiz-64.png" alt="Quiz App"></div><div><span>Simple Quiz</span></a></div></li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1 id="msg">Sample message</h1>
+    </div>
+
+    <script src="AppScript.js"></script>
+    
+</body>
+</html>
